@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BookMyTicket</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="con_msg">This tab is now under construction,We will updated Soon. Thank you</string>
+
+
+    <string-array name="halls">
+        <item>Shyamoli Hall</item>
+        <item>Balaka Cineolex</item>
+        <item>Basundhara Sineplex</item>
+        <item>Anondo Hall</item>
+    </string-array>
+
+</resources>

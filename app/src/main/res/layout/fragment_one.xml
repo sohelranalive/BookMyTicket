@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Movie On Air Now"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:background="#4c4d5b"
+            android:textColor="#ef0c0c"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/MovieOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.04"
+            android:layout_gravity="center"
+            android:background="@drawable/movieone"
+            android:layout_below="@+id/MovieTwo"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <ImageButton
+            android:id="@+id/MovieTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/movietwo"
+            android:layout_below="@+id/MovieThree"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <ImageButton
+            android:id="@+id/MovieThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/moviethree"
+            android:layout_below="@+id/MovieFour"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+
+        <ImageButton
+            android:id="@+id/MovieFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/moviefour"
+            android:layout_below="@+id/MovieFive"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <ImageButton
+            android:id="@+id/MovieFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/moviefive"
+            android:layout_below="@+id/MovieSix"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+        <ImageButton
+            android:id="@+id/MovieSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/moviesix"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+</ScrollView>
